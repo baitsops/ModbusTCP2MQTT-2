@@ -1,8 +1,8 @@
 ## Installation
 
-1. Add the repository URL via the Hassio Add-on Store Tab: **https://github.com/MatterVN/HassioAddon**
-2. Configure the "ModbusTCP2MQTT" add-on.
-3. Start the "ModbusTCP2MQTT" add-on.
+1. Add the repository URL via the Hassio Add-on Store Tab: **https://github.com/baitsops/ModbusTCP2MQTT-2/**
+2. Configure the "ModbusTCP2MQTT-2" add-on.
+3. Start the "ModbusTCP2MQTT-2" add-on.
 
 ## Configuration
 

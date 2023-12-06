@@ -27,6 +27,7 @@
     "Inverter_host": "str",
     "Inverter_port": "port",
     "Inverter_model": "str",
+    "Inverter_identifier": "str",
     "Smart_meter": "bool",
     "Connection": "list(Sungrow|Modbus|HTTP)",
     "Scan_level": "list(BASIC|STANDARD|DETAIL|ALL)",

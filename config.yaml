@@ -18,6 +18,7 @@ options:
   Inverter_host: ""
   Inverter_port: 502
   Inverter_model: ""
+  Inverter_identifier: ""
   Smart_meter: false
   Connection: "Sungrow"
   Scan_level: "STANDARD"
@@ -28,6 +29,7 @@ schema:
   Inverter_host: str
   Inverter_port: port
   Inverter_model: str
+  Inverter_identifier: str
   Smart_meter: bool
   Connection: "list(Sungrow|Modbus|HTTP)"
   Scan_level: "list(BASIC|STANDARD|DETAIL|ALL)"

@@ -27,6 +27,7 @@ class SungrowInverter():
         self.inverter_config = {
             "slave":            config_inverter.get('slave'),
             "model":            config_inverter.get('model'),
+            "identifier":       config_inverter.get('identifier'),
             "level":            config_inverter.get('level'),
             "use_local_time":   config_inverter.get('use_local_time'),
             "smart_meter":      config_inverter.get('smart_meter'),
@@ -493,6 +494,7 @@ def main():
         "scan_interval": configfile['inverter'].get('scan_interval',30),
         "connection": configfile['inverter'].get('connection',"modbus"),
         "model": configfile['inverter'].get('model',None),
+        "identifier": configfile['inverter'].get('identifier',None),
         "smart_meter": configfile['inverter'].get('smart_meter',False),
         "use_local_time": configfile['inverter'].get('use_local_time',False),
         "log_console": configfile['inverter'].get('log_console','WARNING'),

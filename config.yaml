@@ -1,6 +1,6 @@
 name: ModbusTCP2MQTT-2
 version: "0.3.8"
-slug: modbus_inverter
+slug: modbus_inverter-2
 description: Sungrow/SMA inverter Modbus communication
 url: "https://github.com/baitsops/ModbusTCP2MQTT-2"
 arch: 
